@@ -3,12 +3,13 @@ import './App.css'
 import './SCSS/main.scss'
 import menuData from './objectMenu/menuMakanan' // Import menuData
 import MenuList from './Components/menuList'
+import NavigationBar from "./Components/NavigationBar"
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
+      <NavigationBar />
+
       <div className='card-section'>
         <MenuList menu={menuData.salad} />
         <MenuList menu={menuData.risoles} />
@@ -30,10 +31,8 @@ function App() {
         <MenuList menu={menuData.biskuit} />
         <MenuList menu={menuData.puding} />
       </div>
-      
-
     </>
-  )
+  );
 }
 
-export default App
+export default App;
