@@ -9,10 +9,16 @@
     flex-wrap: wrap;
     justify-content: center;
     margin: 0 auto;
-    margin-bottom: 30px;
+    margin-bottom: 45px;
 }
 
 .card-content {
     margin-top: 30px;
     padding-right: 20px;
+}
+
+.faq-section {
+    max-width: 1285px;
+    margin: 0 auto;
+    margin-bottom: 40px;
 }

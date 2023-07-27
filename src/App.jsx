@@ -4,11 +4,14 @@ import './SCSS/main.scss'
 import menuData from './objectMenu/menuMakanan' // Import menuData
 import MenuList from './Components/menuList'
 import NavigationBar from "./Components/NavigationBar"
+import CustomizedAccordions from './Components/FAQ'
 
 function App() {
   return (
     <>
       <NavigationBar />
+
+      
 
       <div className='card-section'>
         <MenuList menu={menuData.salad} />
@@ -30,6 +33,10 @@ function App() {
         <MenuList menu={menuData.jajanPasar} />
         <MenuList menu={menuData.biskuit} />
         <MenuList menu={menuData.puding} />
+      </div>
+
+      <div className='faq-section'>
+        <CustomizedAccordions />
       </div>
     </>
   );
