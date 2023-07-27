@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React, { useState, useEffect } from 'react';
 import { styled } from '@mui/material/styles';
 import ArrowForwardIosSharpIcon from '@mui/icons-material/ArrowForwardIosSharp';
 import MuiAccordion from '@mui/material/Accordion';
@@ -13,7 +13,7 @@ const theme = createTheme({
   palette: {
     primary: {
       white: '#E1D9D9',
-      main: '#A02323',
+      main: '#A33B00',
       dark: '#1e1e1e',
       contrastText: '#fff',
     },
@@ -68,6 +68,11 @@ export default function CustomizedAccordions() {
     setExpanded(newExpanded ? panel : false);
   };
 
+  // useEffect untuk mengatur expanded menjadi false saat komponen pertama kali di-mount
+  useEffect(() => {
+    setExpanded(false);
+  }, []);
+
   return (
     <div>
     <Stack alignItems="center">
@@ -88,7 +93,7 @@ export default function CustomizedAccordions() {
           </Typography>
         </AccordionDetails>
       </Accordion>
-      <Accordion expanded={expanded === 'panel2'} onChange={handleChange('panel2')} sx={{ backgroundColor: theme.palette.primary.dark, marginBottom:0.3, }}>
+      <Accordion expanded={expanded === 'panel2'} onChange={handleChange('panel2')} sx={{ backgroundColor: theme.palette.primary.main, marginBottom:0.3, }}>
         <AccordionSummary aria-controls="panel2d-content" id="panel2d-header">
           <Typography sx={{ color: theme.palette.primary.contrastText  }}>Lorem ipsum dolor sit amet consectetur.</Typography>
         </AccordionSummary>
@@ -101,7 +106,7 @@ export default function CustomizedAccordions() {
           </Typography>
         </AccordionDetails>
       </Accordion>
-      <Accordion expanded={expanded === 'panel3'} onChange={handleChange('panel3')}  sx={{ backgroundColor: theme.palette.primary.dark }}>
+      <Accordion expanded={expanded === 'panel3'} onChange={handleChange('panel3')}  sx={{ backgroundColor: theme.palette.primary.main }}>
         <AccordionSummary aria-controls="panel3d-content" id="panel3d-header">
           <Typography sx={{ color: theme.palette.primary.contrastText  }}>Lorem ipsum dolor sit amet consectetur adipisicing.</Typography>
         </AccordionSummary>
