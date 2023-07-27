@@ -6,6 +6,7 @@ import MenuList from './Components/menuList'
 import NavigationBar from "./Components/NavigationBar"
 import CustomizedAccordions from './Components/FAQ'
 import MenuButtons from './Components/MenuButtons'
+import About from './Components/About'
 
 
 function App() {
@@ -31,6 +32,10 @@ function App() {
   return (
     <>
       <NavigationBar />
+
+      <div className='about-section'>
+        <About />
+      </div>
 
       <MenuButtons setActiveCategory={setActiveCategory} activeCategory={activeCategory} />
 

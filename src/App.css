@@ -4,6 +4,26 @@
     box-sizing: border-box;
 }
 
+.about-section {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.about-content {
+    display: flex;
+    justify-content: center;
+}
+
+.about-img {
+    width: 400px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 17px;
+    margin-bottom: 50px
+}
+
 .menu-buttons {
     display: flex;
     justify-content: center;
