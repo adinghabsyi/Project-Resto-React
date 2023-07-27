@@ -24,8 +24,9 @@ const theme = createTheme({
   },
 });
 
-export default function ActionAreaCard({ harga, title, subheader, img, alt, name, desc }) {
+export default function ActionAreaCard({ harga, title, subheader, img, alt, desc }) {
   return (
+
     <div className='card-content'>
       <Card sx={{ width: 300, height: 420, backgroundColor: theme.palette.primary.dark }}>
         <CardHeader
