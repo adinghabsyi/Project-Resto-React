@@ -1,42 +1,63 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.about-section {
+    margin-top: 100px;
+    margin-bottom: 50px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+.about-content {
+    display: flex;
+    justify-content: center;
+}
+
+.about-img {
+    width: 400px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 17px;
+    margin-bottom: 50px
+}
+
+.menu-buttons {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
   }
-  to {
-    transform: rotate(360deg);
-  }
+  
+button {
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    padding: 8px 16px;
+    margin: 0 4px;
+    cursor: pointer;
+}
+  
+button.active {
+    background-color: #3f50b5;
+    color: #fff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.card-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 45px;
 }
 
-.card {
-  padding: 2em;
+.card-content {
+    margin-top: 30px;
+    padding-right: 20px;
 }
 
-.read-the-docs {
-  color: #888;
+.faq-section {
+    max-width: 1285px;
+    margin: 0 auto;
+    margin-bottom: 40px;
 }
