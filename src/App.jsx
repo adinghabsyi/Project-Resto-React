@@ -47,7 +47,7 @@ function App() {
         activeCategory={activeCategory}
       />
 
-      <div className="card-section" id="menu">
+      <div className="card-section">
         <MenuList menu={filterMenuByCategory(activeCategory)} />
       </div>
 

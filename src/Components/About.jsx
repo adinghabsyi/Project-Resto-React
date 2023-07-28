@@ -53,8 +53,8 @@ export default function About() {
           <CardMedia
             component="img"
             height="200"
-            image="./src/assets/restoran-1.jpg" // Ganti dengan path gambar yang sesuai
-            alt="Image Description" // Ganti dengan deskripsi gambar yang sesuai
+            image="./src/assets/restoran-1.jpg"
+            alt="Image Description"
           />
           <CardContent>
             <Typography
@@ -70,8 +70,8 @@ export default function About() {
           <CardMedia
             component="img"
             height="200"
-            image="./src/assets/restoran-2.jpeg" // Ganti dengan path gambar yang sesuai
-            alt="Image Description" // Ganti dengan deskripsi gambar yang sesuai
+            image="./src/assets/restoran-2.jpeg"
+            alt="Image Description"
           />
           <CardContent>
             <Typography
@@ -87,8 +87,8 @@ export default function About() {
           <CardMedia
             component="img"
             height="200"
-            image="./src/assets/restoran-3.jpg" // Ganti dengan path gambar yang sesuai
-            alt="Image Description" // Ganti dengan deskripsi gambar yang sesuai
+            image="./src/assets/restoran-3.jpg"
+            alt="Image Description"
           />
           <CardContent>
             <Typography
@@ -102,26 +102,28 @@ export default function About() {
         </div>
       </div>
 
-      <Stack alignItems="center">
-        <MenuBookSharpIcon
+      <div id="menu">
+        <Stack alignItems="center">
+          <MenuBookSharpIcon
+            sx={{
+              fontSize: 40,
+              color: theme.palette.primary.contrastText,
+              marginBottom: 1,
+            }}
+          />
+        </Stack>
+        <Typography
+          variant="h4"
+          align="center"
           sx={{
-            fontSize: 40,
+            fontWeight: "bold",
+            marginBottom: 3,
             color: theme.palette.primary.contrastText,
-            marginBottom: 1,
           }}
-        />
-      </Stack>
-      <Typography
-        variant="h4"
-        align="center"
-        sx={{
-          fontWeight: "bold",
-          marginBottom: 3,
-          color: theme.palette.primary.contrastText,
-        }}
-      >
-        OUR MENU
-      </Typography>
+        >
+          OUR MENU
+        </Typography>
+      </div>
     </div>
   );
 }
