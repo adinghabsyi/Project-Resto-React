@@ -102,7 +102,7 @@ export default function CustomizedAccordions() {
           color: theme.palette.primary.dark,
         }}
       >
-        Frequently Asked Questions
+        FREQUENTLY ASKED QUESTIONS
       </Typography>
 
       <Accordion
@@ -112,15 +112,17 @@ export default function CustomizedAccordions() {
       >
         <AccordionSummary aria-controls="panel1d-content" id="panel1d-header">
           <Typography sx={{ color: theme.palette.primary.contrastText }}>
-            Lorem ipsum dolor sit.
+            Apa jenis hidangan yang ditawarkan oleh restoran kami?
           </Typography>
         </AccordionSummary>
         <AccordionDetails sx={{ backgroundColor: theme.palette.primary.white }}>
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum
-            dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada
-            lacus ex, sit amet blandit leo lobortis eget.
+            Restoran kami menyajikan beragam hidangan pembuka, hidangan utama,
+            dan hidangan penutup. Anda dapat menemukan berbagai pilihan hidangan
+            mulai dari salad, risoles, lumpia, tahu isi, martabak, hingga
+            berbagai hidangan utama seperti ayam goreng, ikan bakar, dan nasi
+            Padang. Jangan lupa untuk mencicipi juga hidangan penutup kami yang
+            lezat seperti es krim, pie, dan jajan pasar.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -131,15 +133,16 @@ export default function CustomizedAccordions() {
       >
         <AccordionSummary aria-controls="panel2d-content" id="panel2d-header">
           <Typography sx={{ color: theme.palette.primary.contrastText }}>
-            Lorem ipsum dolor sit amet consectetur.
+            Apakah restoran kami menyediakan hidangan vegetarian?
           </Typography>
         </AccordionSummary>
         <AccordionDetails sx={{ backgroundColor: theme.palette.primary.white }}>
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum
-            dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada
-            lacus ex, sit amet blandit leo lobortis eget.
+            Tentu saja! Kami juga menyajikan hidangan yang cocok untuk para
+            pelanggan vegetarian. Anda dapat menemukan pilihan hidangan pembuka,
+            hidangan utama, dan hidangan penutup yang terbuat dari bahan-bahan
+            segar dan berkualitas, khusus untuk memenuhi kebutuhan dan selera
+            para pelanggan vegetarian kami.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -150,15 +153,16 @@ export default function CustomizedAccordions() {
       >
         <AccordionSummary aria-controls="panel3d-content" id="panel3d-header">
           <Typography sx={{ color: theme.palette.primary.contrastText }}>
-            Lorem ipsum dolor sit amet consectetur adipisicing.
+            Apakah restoran kami menyediakan layanan pesan antar?
           </Typography>
         </AccordionSummary>
         <AccordionDetails sx={{ backgroundColor: theme.palette.primary.white }}>
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum
-            dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada
-            lacus ex, sit amet blandit leo lobortis eget.
+            Ya, restoran kami menyediakan layanan pesan antar untuk kenyamanan
+            pelanggan kami. Anda dapat melakukan pemesanan melalui telepon atau
+            melalui platform pemesanan online yang telah kami sediakan. Tim kami
+            akan dengan senang hati mengantarkan hidangan pilihan Anda ke tempat
+            tujuan dengan cepat dan aman.
           </Typography>
         </AccordionDetails>
       </Accordion>
