@@ -8,6 +8,11 @@ import CustomizedAccordions from "./Components/FAQ";
 import MenuButtons from "./Components/MenuButtons";
 import About from "./Components/About";
 import HomeSection from "./Components/HomeSection";
+import ContactUs from "./Components/ContactUs";
+import Footer from "./Components/Footer";
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
 
 function App() {
   const [activeCategory, setActiveCategory] = useState("All");
@@ -54,6 +59,14 @@ function App() {
       <div className="faq-section" id="faq">
         <CustomizedAccordions />
       </div>
+
+      <div className="contact-section" id="contact">
+        <ContactUs />
+      </div>
+
+      <footer className="footer">
+        <Footer />
+      </footer>
     </>
   );
 }

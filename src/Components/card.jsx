@@ -33,7 +33,7 @@ export default function ActionAreaCard({
   desc,
 }) {
   return (
-    <div className="card-content">
+    <div className="card-content" data-aos="fade-up">
       <Card
         sx={{
           width: 300,
