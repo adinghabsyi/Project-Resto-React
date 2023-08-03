@@ -49,7 +49,7 @@ export default function About() {
         ABOUT US
       </Typography>
       <div className="about-content">
-        <div className="about-img">
+        <div className="about-img" data-aos="fade-up" data-aos-duration="1000">
           <CardMedia
             component="img"
             height="200"
@@ -66,7 +66,7 @@ export default function About() {
             </Typography>
           </CardContent>
         </div>
-        <div className="about-img">
+        <div className="about-img" data-aos="fade-up" data-aos-duration="2000">
           <CardMedia
             component="img"
             height="200"
@@ -83,7 +83,7 @@ export default function About() {
             </Typography>
           </CardContent>
         </div>
-        <div className="about-img">
+        <div className="about-img" data-aos="fade-up" data-aos-duration="3000">
           <CardMedia
             component="img"
             height="200"
