@@ -10,7 +10,7 @@ import About from "./Components/About";
 import HomeSection from "./Components/HomeSection";
 import ContactUs from "./Components/ContactUs";
 import Footer from "./Components/Footer";
-import AOS from "aos";
+import AOS from "aos"; //npm install aos
 import "aos/dist/aos.css";
 AOS.init();
 
