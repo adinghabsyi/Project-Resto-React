@@ -6,7 +6,6 @@ import MuiAccordionSummary from "@mui/material/AccordionSummary";
 import MuiAccordionDetails from "@mui/material/AccordionDetails";
 import Typography from "@mui/material/Typography";
 import { createTheme } from "@mui/material/styles";
-import Avatar from "@mui/material/Avatar";
 import Stack from "@mui/material/Stack";
 import HelpOutlineSharpIcon from "@mui/icons-material/HelpOutlineSharp";
 
