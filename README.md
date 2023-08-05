@@ -1,8 +1,27 @@
-# React + Vite
+## <h1 align="center">This is it.</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<br>
+  <p align="center">
+  <a><img src="https://i.giphy.com/media/f3iwJFOVOwuy7K6FFw/giphy.webp" alt="image" width="500"></a>
+<br>
 
-Currently, two official plugins are available:
+# 🐱‍💻 Framework-based Restaurant Website Stack
+📌 React Framework <br>
+📌 Vite Framework <br>
+📌 Material UI 5 <br>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<br> 
+
+## Hosting
+Front-end (Vercel): https://restorankeluarga-solo.vercel.app/
+<br>
+<br> 
+## 🏷️ To Run
+1. visit: [Website Restoranmu](https://restoranmu.vercel.app/) <br>
+2. Enjoy
+<br>
+
+
+
+# Contributors 
+Ading, Hussain.
