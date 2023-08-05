@@ -13,7 +13,7 @@
 <br> 
 
 ## Hosting
-Front-end (Vercel): https://restorankeluarga-solo.vercel.app/
+Front-end (Vercel): https://restoranmu.vercel.app/
 <br>
 <br> 
 ## 🏷️ To Run
